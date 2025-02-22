@@ -8,10 +8,10 @@ setup(
     install_requires=[
         'gdown',
         'numpy',
-        'torch',
-        'torchvision',
+        # 'torch',
+        # 'torchvision',
         'pytorch-lightning',
-        'smplx==0.1.28',
+        'smplx @ git+https://github.com/zhawhjw/smplx.git',
         'pyrender',
         'opencv-python',
         'yacs',
